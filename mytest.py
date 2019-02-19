@@ -7,13 +7,13 @@ class MyFirstTests(unittest.TestCase):
 
      self.assertEqual(hello_world(), 'hello world')
 
-     minor = 0 - 17
-     print(minor)
-
-     youth = 18 - 36
-     print(youth)
-
-     elder = 37 - 200
-     print(elder)
-
+age = int(input("yeat of birth: "))
+human = 2019 - (age -0)*1
+print()
+if age < 18:
+	print("You are a minor!")
+elif age == 36:
+	print("You are a Youth")
+elif age > 37:
+	print("An Elder")
      
